@@ -223,7 +223,7 @@ Array.prototype.forEach.call(document.querySelectorAll(".styletoggle button"), f
 });
 
 // ===== 使用ログ（GASへ送信） =====
-var LOG_URL="ここにGASのウェブアプリURLを貼り付け";
+var LOG_URL="https://script.google.com/macros/s/AKfycbwqzXrIpR1hVEs5f1mbSdL2yRXGOKvbQPNQMjgqql6YfywYXJNpBDa9eWXHchoE4bIb/exec";
 var WARDS=["西4","西5","西6","西7","外来ケモ","注射室","調剤室","周産期","NICU","薬剤部その他","その他","管理者用"];
 function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
 function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
